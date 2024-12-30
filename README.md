@@ -16,7 +16,7 @@ A React Pokedex tracker that uses [PokeAPI](https://pokeapi.co/) to aid me in my
 
 ## Other notes
 
-This app uses the order property from PokeAPI to order species. At the time of writing this gets a bit muddled from Gen 7 onwards, but I chose it because the property is supposed to group species (e.g. Alolan Raichu with Raichu) together which just makes more _sense_ to me.
+This app uses the order property from PokeAPI to order species. At the time of writing this gets a bit muddled from Gen 7 onwards, but I chose it because the property is supposed to group species (e.g. Alolan Raichu with Raichu) together.
 
 ## Credits
 
