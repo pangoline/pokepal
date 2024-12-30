@@ -24,7 +24,7 @@ const PokemonCard = ({ name, species, id, sprites, checked }) => {
   }
   return (
     <div
-      className="hover:-translate-y-6 transition-all relative cursor-pointer"
+      className="hover:-translate-y-3 transition-all relative cursor-pointer"
       onClick={checkHandler}
     >
       {species.name === name && (

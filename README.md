@@ -11,8 +11,8 @@ A React Pokedex tracker that uses [PokeAPI](https://pokeapi.co/) to aid me in my
 ## Might add these things later
 
 - Export/import data as CSV (to preserve data outside of local storage)
-- Toggle Mega/other forms - this may be difficult due to PokeAPI's lack of logical categorisation for different forms
-- Further filter out forms that you would never catch individually (again may be difficult due to above point)
+- Toggle Mega/other forms - will have to look into how PokeAPI handles forms more
+- Further filter out forms that you would never catch individually
 - Make it look better on mobile
 
 ## Other notes
