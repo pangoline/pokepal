@@ -24,7 +24,7 @@ const PokemonCard = ({ name, species, id, sprites, checked }) => {
   }
   return (
     <div
-      className="hover:-translate-y-3 transition-all relative cursor-pointer"
+      className="hover:-translate-y-3 transition-all relative cursor-pointer max-w-fit m-auto"
       onClick={checkHandler}
     >
       {species.name === name && (
@@ -50,8 +50,8 @@ const PokemonCard = ({ name, species, id, sprites, checked }) => {
         </div>
       </div>
 
-      <div className="bg-white rounded-full p-8 mb-4 shadow-lg">
-        <img src={sprites.front_default} />
+      <div className="bg-white rounded-full p-8 mb-4 shadow-lg flex">
+        <img src={sprites.front_default} className="m-auto" />
       </div>
       <div className="-mt-8 shadow-md rounded-full overflow-hidden ">
         <div className="m-auto capitalize bg-orange-200 px-3 text-center">

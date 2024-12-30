@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <header className="bg-white flex flex-col md:flex-row py-4 px-9 justify-between items-center">
       <img src={logo} className="h-10 md:mb-0 mb-8" />
-      <div className="flex  flex-col lg:flex-row gap-4">
+      <div className="flex flex-col lg:flex-row gap-4">
         <div>
           <input
             type="text"
@@ -38,7 +38,7 @@ const Header = () => {
             Reset
           </button>
         </div>
-        <div className="flex gap-4 justify-center">
+        <div className="flex max-[400px]:flex-col gap-4 justify-center">
           <button
             className="rounded border-black border-2 px-4 hover:border-red-800 hover:text-red-800 min-w-[150px]"
             onClick={() => {

@@ -8,8 +8,8 @@ const Pagination = () => {
   const { currentPage, totalPages } = pokeState.pagination;
 
   return (
-    <div className="text-4xl flex mb-16 mt-auto">
-      <div className="bg-white px-4 rounded-full flex mx-auto gap-8">
+    <div className="sm:text-4xl text-3xl flex mb-16 mt-auto">
+      <div className="bg-white px-4 rounded-full flex mx-auto sm:gap-8 gap-6">
         <button
           onClick={() => {
             dispatch({ type: "NAVIGATE_TO", payload: 1 });
